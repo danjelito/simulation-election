@@ -8,7 +8,6 @@ def render_method_intro(
     prompt: str,
 ) -> None:
     st.markdown(f"## {title}")
-    st.markdown(summary)
 
     col1, col2, col3 = st.columns(3)
     sections = [
